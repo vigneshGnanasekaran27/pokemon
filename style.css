@@ -1,0 +1,70 @@
+body{
+    font-weight: bold;
+}
+
+div {
+    text-align: center; 
+
+}
+#pokemonSprite ,#pokemonSpriteBack{
+    width: 300px;  
+    height: 300px; 
+    padding: 0; 
+  }
+
+  input[type="text"] ,select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;  
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  button:hover {
+    background-color: #579fed;  
+  }
+
+  p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  
+.label {
+    color: #eb190a;  
+    font-weight: bold;  
+  }
+  
+  
+  .value {
+    color: #32159d;  
+    font-weight: normal; 
+  }
+
+  .img-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.wrapperContainer {
+  margin-top: 100px;
+}
+
+select{
+  text-align: center;
+}
+
+ 

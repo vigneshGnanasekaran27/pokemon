@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="wrapperContainer">
+    <label>ENTER POKEMON NAME <input list="pokemonNames" type="text" id="pokemonname" placeholder="PIKACHU......"> </label>
+    <button onclick="fetchdata()">Submit</button> <br>
+    <datalist id="pokemonNames">
+       
+    </datalist>
+<div class="img-con"> 
+    <img src="" alt="pokemon sprite" id="pokemonSprite" style="display: none;">
+    <img src="" alt="pokemon sprite" id="pokemonSpriteBack" style="display: none;">
+</div>
+    <p id="pokemonType"></p>
+    <p id="pokemonSpecies"></p>
+    <p id="pokemonAbilities"></p>
+    <p id="pokemonWeight"></p>
+    <p id="pokemonHeight"></p>
+    <p id="pokemonStats"></p>
+    <a href="table.html">Click here to View Pokémon Table</a>
+</div>
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
